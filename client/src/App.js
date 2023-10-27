@@ -1,9 +1,10 @@
 import './App.css';
+import React from 'react';
 
 const Header = () => {
   return (
     <header>
-      <div class="inner">
+      <div className="inner">
         <h1>
           <img src="./logo.svg" alt="logo" />
         </h1>
@@ -16,12 +17,12 @@ const ChoicedItem = () => {
   return (
     <li>
       <img src="./img/0020403191__T873MHH012.CKOR__M_220_220.jpg" alt="4도어 냉장고" />
-      <div class="item-info">
+      <div className="item-info">
         <p>LG전자 오브제 4도어 냉장고 T873MHH012.CKOR [870L]</p>
-        <div class="price-box">
+        <div className="price-box">
           <span>판매가 : 5,000,000원</span>
-          <div class="quantity-box">
-            <label for="quantity1">수량</label>
+          <div className="quantity-box">
+            <label htmlFor="quantity1">수량</label>
             <select name="quantity1" id="quantity1">
               <option value="1">1</option>
               <option value="2">2</option>
@@ -30,7 +31,7 @@ const ChoicedItem = () => {
           </div>
         </div>
       </div>
-      <button type="button" class="cancle-btn">
+      <button type="button" className="cancle-btn">
         <img src="./img/cancle.svg" alt="cancle" />
       </button>
     </li>
@@ -39,32 +40,32 @@ const ChoicedItem = () => {
 
 const ChoicedList = () => {
   return (
-    <ul class="choiced-list">
+    <ul className="choiced-list">
       <ChoicedItem />
-      <ChoicedItem /> 
-      <ChoicedItem /> 
+      <ChoicedItem />
+      <ChoicedItem />
     </ul>
   )
 }
 
 const PriceBox = () => {
   return (
-    <div class="price-box">
-      <ul class="price-list">
+    <div className="price-box">
+      <ul className="price-list">
         <li>
           <span>상품금액</span>
-          <span class="item-price">0원</span>
+          <span className="item-price">0원</span>
         </li>
         <li>
           <span>할인금액</span>
-          <span class="item-price sale">0원</span>
+          <span className="item-price sale">0원</span>
         </li>
         <li>
           <span>배송비</span>
-          <span class="item-price delivery">0원</span>
+          <span className="item-price delivery">0원</span>
         </li>
       </ul>
-      <div class="price-result">
+      <div className="price-result">
         <p>결제금액</p>
         <p>0원</p>
       </div>
@@ -74,8 +75,8 @@ const PriceBox = () => {
 
 const ResultBox = () => {
   return (
-    <div class="result-box">
-      <div class="delivery-box">
+    <div className="result-box">
+      <div className="delivery-box">
         <p>배송지 확인</p>
         <span>서울시 서대문구 벚꽃로 300, 용빌딩 305호</span>
         <PriceBox></PriceBox>
@@ -86,13 +87,22 @@ const ResultBox = () => {
 };
 
 function App() {
+
+  const [counter, setCounter] = React.useState(() => {
+    return
+  })
+
+  function handleOrderClick() {
+
+  }
+
   return (
     <div className="App">
       <Header></Header>
       <div id="content">
-        <div class="inner">
+        <div className="inner">
           <h2>장바구니</h2>
-          <div class="list-box">
+          <div className="list-box">
             <ChoicedList></ChoicedList>
           </div>
           <ResultBox></ResultBox>
