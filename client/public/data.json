@@ -1,0 +1,50 @@
+{
+  "data1": {
+    "name": "LG전자 163cm UHD TV 65UR342C9NC 스탠드형",
+    "price": "5,000,000원",
+    "discountRate": "20%",
+    "discountPrice": "4,000,000원"
+  },
+  "data2": {
+    "name": "삼성전자 163cm QLED 4K KQ65QB67AFXKR 스탠드형",
+    "price": "3,000,000원",
+    "discountRate": "10%",
+    "discountPrice": "2,700,000원"
+  },
+  "data3": {
+    "name": "LG전자 오브제 4도어 냉장고 T873MHH012.CKOR [870L]",
+    "price": "2,500,000원",
+    "discountRate": "12%",
+    "discountPrice": "2,200,000원"
+  },
+  "data4": {
+    "name": "LG전자 LG 디오스 오브제컬렉션 노크온 T873MKE312.CKOR (870L)",
+    "price": "3,000,000원",
+    "discountRate": "12%",
+    "discountPrice": "2,650,000원"
+  },
+  "data5": {
+    "name": "LG전자 163cm UHD TV 65UR342C9NC 스탠드형",
+    "price": "1,800,000원",
+    "discountRate": "11%",
+    "discountPrice": "1,600,000원"
+  },
+  "data6": {
+    "name": "LG전자 163cm UHD TV 65UR342C9NC 스탠드형",
+    "price": "1,400,000원",
+    "discountRate": "10%",
+    "discountPrice": "1,260,000원"
+  },
+  "data7": {
+    "name": "LG전자 163cm UHD TV 65UR342C9NC 스탠드형",
+    "price": "1,000,000원",
+    "discountRate": "10%",
+    "discountPrice": "900,000원"
+  },
+  "data8": {
+    "name": "LG전자 163cm UHD TV 65UR342C9NC 스탠드형",
+    "price": "550,000원",
+    "discountRate": "9%",
+    "discountPrice": "500,000원"
+  }
+}

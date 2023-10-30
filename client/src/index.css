@@ -16,6 +16,10 @@ button {
   background: transparent;
   border: none;
 }
+a {
+  color: #222;
+	text-decoration: none;
+}
 @font-face {
 	font-family: 'SUIT';
 	font-weight: 500;
@@ -59,4 +63,48 @@ h2 {
 #content .inner {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* Header */
+header .inner {
+  padding: 40px 0 20px;
+}
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.header-box li {
+  margin-right: 2em;
+}
+.header-left-box {
+  display: flex;
+}
+.header-right-box {
+  display: flex;
+  align-items: center;
+}
+.header-left-box img {
+  margin-right: 8px;
+}
+.header-left-box .point-co {
+  color: #003fb9;
+}
+.header-right-box .search-box {
+  position: relative;
+  display: flex;
+  height: 40px;
+  margin-right: 0.5em;
+}
+.header-right-box .search-box input {
+  width: 360px;
+  border: 1px solid #c7c7c7;
+  border-radius: 2em;
+}
+.header-right-box .search-box img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
