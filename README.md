@@ -2,11 +2,13 @@
 
 ## yarn install & npm run
 
+```
 yarn install
 cd ./client
 yarn install
 cd ..
 npm run dev
+```
 
 ### 메인 페이지
 
