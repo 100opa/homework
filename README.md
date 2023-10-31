@@ -1,5 +1,8 @@
 # LivingHub 개인 프로젝트
 
+- 개발 기간
+  2023-10-26 ~ 2023-10-30
+
 ## yarn install & npm run
 
 ```
