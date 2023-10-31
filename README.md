@@ -1,8 +1,13 @@
 # LivingHub 개인 프로젝트
 
+- 개발 기간
+  2023-10-26 ~ 2023-10-30
+
 ## yarn install & npm run
 
 ```
+git clone https://github.com/100opa/homework.git
+cd homework
 yarn install
 cd ./client
 yarn install
@@ -32,10 +37,3 @@ npm run dev
 - 장바구니 요약 출력
   장바구니 리스트의 금액 합계들을 보여줌
   
-- 상품 삭제 기능 (구현 예정)
-  장바구니에 담은 상품들을 x버튼을 눌러 삭제할 수 있음
-  상품 삭제에 따라 장바구니 요약 정보를 업데이트함
-  
-- 수량 수정 기능 (구현 예정)
-  장바구니에 담은 상품들의 수량을 선택할 수 있음 (최소1 ~ 최대3)
-  수량 수정에 따라 장바구니 요약 정보를 업데이트함
