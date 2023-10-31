@@ -5,23 +5,23 @@ const ProductBox = (props) => {
 
   const addCart = () => {
     const cartData = JSON.parse(localStorage.getItem('cart')) || [];
-    
+
     //  // 중복 확인
     const isDuplicate = cartData.some(item => item.key === itemSet.key);
-    
+
     if (!isDuplicate) {
       // 중복되지 않으면 추가
       cartData.push(itemSet);
       localStorage.setItem('cart', JSON.stringify(cartData));
       alert("장바구니에 해당 상품이 추가되었습니다.")
     } else {
-      alert("장바구니에 이미 존재하는 상품입니다. \n수량 조정은 장바구니 페이지에서 가능합니다.")
+      alert("장바구니에 이미 존재하는 상품입니다.")
     }
   };
 
   return (
     <div href="#" className="product-box">
-      <a href="#"><img src={`./img/${imgName}.jpg`} alt="LG전자 오브제 4도어 냉장고"/></a>
+      <a href="#"><img src={`./img/${imgName}.jpg`} alt="LG전자 오브제 4도어 냉장고" /></a>
       <a href="#"><span className="product-name">{product.name}</span></a>
       <p className="discount-price"><span>{product.discountRate}</span>{product.discountPrice}</p>
       <span className="price">{product.price}</span>

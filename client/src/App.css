@@ -2,17 +2,20 @@
 #background {
   background-color: #fff;
 }
+
 .main-box {
   position: relative;
   overflow: hidden;
 }
-.main-box > img {
+
+.main-box>img {
   width: 100%;
   height: 360px;
   background-image: url("../public/img/54968786-7f86-4d49-b91d-0fd969351a0e.png");
   background-size: cover;
   background-position: center center;
 }
+
 .main-box .main-box-inner {
   position: absolute;
   left: 50%;
@@ -24,15 +27,18 @@
   padding: 0 20px;
   transform: translateX(-50%);
 }
+
 .main-box .main-txt-box {
   line-height: 1.25;
   font-size: 20px;
   font-weight: 600;
 }
+
 .main-box .main-txt-box p {
   font-size: 2em;
   margin: 0.5em 0;
 }
+
 .main-box .main-txt-box .more-btn {
   font-size: 16px;
   font-weight: 700;
@@ -41,12 +47,14 @@
   background-color: #222;
   border-radius: 2em;
 }
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
   grid-auto-rows: repeat(4, 1fr);
   justify-content: space-between;
-} 
+}
+
 .product-box {
   position: relative;
   width: 23%;
@@ -54,26 +62,31 @@
   line-height: 1.25;
   text-align: left;
 }
+
 .product-box a img {
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid #e5e7eb;
 }
+
 .product-box .discount-price {
   margin: 20px 0 10px;
   font-size: 20px;
   font-weight: 700;
 }
+
 .product-box .discount-price span {
   margin-right: 10px;
   font-size: 16px;
   color: #003fb9;
 }
+
 .product-box .price {
   font-weight: 700;
   color: #c7c7c7;
   text-decoration: line-through
 }
+
 .product-box button img {
   position: absolute;
   right: 12px;
@@ -82,6 +95,7 @@
   opacity: 0.3;
   transition: opacity 0.5s;
 }
+
 .product-box button img:hover {
   opacity: 1;
 }
@@ -90,16 +104,20 @@
 .list-box {
   width: 800px;
 }
+
 .result-box {
   width: 400px;
 }
+
 .list-box {
   margin-right: 40px;
 }
+
 .list-box .choiced-list {
   display: grid;
   gap: 20px;
 }
+
 .list-box .choiced-list li {
   position: relative;
   display: flex;
@@ -108,11 +126,13 @@
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
 }
-.list-box .choiced-list li > img {
+
+.list-box .choiced-list li>img {
   width: 160px;
   height: 160px;
   margin-right: 16px;
 }
+
 .list-box .choiced-list li .cancle-btn {
   position: absolute;
   top: 20px;
@@ -121,6 +141,7 @@
   width: 18px;
   height: 18px;
 }
+
 .list-box .choiced-list .item-info {
   display: flex;
   flex-direction: column;
@@ -129,21 +150,26 @@
   padding: 48px 0 12px;
   text-align: left;
 }
+
 .list-box .choiced-list .item-info p {
   font-size: 20px;
   font-weight: 700;
 }
-.list-box .choiced-list .item-info .price-box {
-  display: flex;
-  justify-content: space-between;
+
+.list-box .choiced-list .item-info span:last-of-type {
+  font-weight: 700;
+  margin-left: 2.5em;
 }
+
 .list-box .choiced-list .item-info label {
   margin-right: 24px;
 }
+
 .result-box {
   display: flex;
   flex-direction: column;
 }
+
 .result-box .delivery-box {
   padding: 60px 30px;
   border-radius: 16px;
@@ -151,42 +177,51 @@
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
 }
+
 .result-box .delivery-box p {
   font-size: 24px;
   font-weight: 700;
 }
-.result-box .delivery-box p + span {
+
+.result-box .delivery-box p+span {
   display: block;
   margin: 20px 0 30px;
   line-height: 1.4;
 }
+
 .result-box .delivery-box .price-list {
   display: grid;
   gap: 20px;
   padding: 20px 0;
   border-bottom: 1px solid #c7c7c7;
 }
+
 .result-box .delivery-box .price-list li {
   display: flex;
   justify-content: space-between;
   color: #666;
 }
+
 .result-box .delivery-box .price-list .item-price {
   font-weight: 700;
 }
+
 .result-box .delivery-box .price-list .item-price.sale::before {
   display: inline;
   content: '-';
 }
+
 .result-box .delivery-box .price-list .item-price.delivery::before {
   display: inline;
   content: '+';
 }
+
 .result-box .delivery-box .price-result {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
+
 .result-box #order-btn {
   margin-top: 20px;
   padding: 1em;
@@ -194,11 +229,13 @@
   color: #fff;
   background-color: #003fb9;
 }
+
 .notice-box {
   width: 100%;
   height: calc(100vh - 394px);
   text-align: center;
 }
+
 .notice {
   font-size: 20px;
 }
