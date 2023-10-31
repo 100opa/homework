@@ -3,6 +3,8 @@
 ## yarn install & npm run
 
 ```
+git clone https://github.com/100opa/homework.git
+cd homework
 yarn install
 cd ./client
 yarn install
